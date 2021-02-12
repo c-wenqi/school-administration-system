@@ -42,11 +42,6 @@ WorkloadModel.init({
         onDelete: 'CASCADE',
         onUpdate:'CASCADE',
     },
-    count_class: {
-        allowNull: false,
-        type: Sequelize.INTEGER,
-        primaryKey : false
-    },
     wid: {
         allowNull: false,
         type: Sequelize.INTEGER,
